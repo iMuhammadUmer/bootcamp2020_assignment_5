@@ -4,7 +4,7 @@ import Parent from "./Parent";
 import CounterContext from "./CounterContext";
 
 function App() {
-  let countState = useState(25);
+  let countState = useState(1);
   return (
     <div className="App">
       <header className="App-header">

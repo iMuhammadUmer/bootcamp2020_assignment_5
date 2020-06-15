@@ -6,8 +6,14 @@ function Child() {
   let counterValue = useContext(counterContext);
   return (
     <div>
-      <h2>Counter: {counterValue}</h2>
-      <button>Add Count</button>
+      <h2>Context Count: {counterValue[0]}</h2>
+      <button
+        onClick={() => {
+          counterValue[1](++counterValue[0]);
+        }}
+      >
+        Add Context
+      </button>
     </div>
   );
 }

@@ -1,9 +1,15 @@
 import React from "react";
 import "./App.css";
 import Child from "./Child";
+import Child2 from "./Child2";
 
-function Parent() {
-  return <Child name="Muuhammad Umer" />;
-}
+const Parent = () => {
+  return (
+    <div>
+      <Child />
+      <Child2 />
+    </div>
+  );
+};
 
 export default Parent;
