@@ -13,6 +13,7 @@ function App() {
             <Parent />
           </div>
         </CounterContext.Provider>
+        <p>Made by Muhammad Umer</p>
       </header>
     </div>
   );

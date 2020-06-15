@@ -5,7 +5,7 @@ const Child2 = () => {
   let [state, dispatch] = useReducer(CounterReducer, 1);
   return (
     <div>
-      <h1>Reducer Count: {state}</h1>
+      <h2>Reducer Count: {state}</h2>
       <button onClick={() => dispatch("INCREMENT")}>Add Reducer</button>
     </div>
   );
